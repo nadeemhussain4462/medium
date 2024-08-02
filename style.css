@@ -1,3 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(250, 245, 236);
+  /* background-image: url(images/hero-image.webp); */
+  /* background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right; */
+}
+
 header {
   margin: 0;
   padding: 0;
@@ -7,7 +17,7 @@ header {
 }
 
 .medium-img img {
-  width: 120px;
+  width: 110px;
   margin-right: 200px;
 }
 
@@ -15,5 +25,39 @@ ul li {
   text-decoration: none;
   text-align: center;
   display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
   margin: 0 15px;
+}
+
+.center {
+  align-items: center;
+  text-align: center;
+  background-color: rgba(235, 197, 126, 0.6);
+  margin-top: -15px;
+}
+
+.center a {
+  z-index: -1;
+  color: black;
+}
+
+.hero-sec {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text h1 {
+  margin-top: 10px;
+  font-size: 110px;
+  font-weight: lighter;
+}
+
+.text p {
+}
+
+.img img {
+  height: 600px;
+  width: 460px;
+  margin-top: -100px;
 }

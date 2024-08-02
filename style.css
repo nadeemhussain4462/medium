@@ -1,0 +1,19 @@
+header {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.medium-img img {
+  width: 120px;
+  margin-right: 200px;
+}
+
+ul li {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  margin: 0 15px;
+}

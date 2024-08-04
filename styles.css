@@ -15,6 +15,8 @@ button {
 }
 
 body {
+  position: relative;
+  z-index: 1;
   font-family: Arial, sans-serif;
   color: #333;
   background-color: rgb(250, 245, 236);
